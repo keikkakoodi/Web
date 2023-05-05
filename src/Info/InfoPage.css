@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+:root {
+	--highlight-red: #f50c0c;
+}
+
+.Info {
+	font-family: Roboto;
+}
+
+#gitLink {
+	color: white;
+	text-decoration: none;
+}
+
+#gitLink:hover {
+	color: var(--highlight-red);
+}
+
+.whiteLink {
+	color: white;
+}
+
+.Licenses {
+	margin-top: 2px;
+	text-align: center;
+}
+
+#licensesLink {
+	color: white;
+	text-decoration: none;
+}
+
+#licensesLink:hover {
+	color: var(--highlight-red);
+}
+
+#GoHome {
+	width: 135px;
+	height: 20px;
+	background-color: white;
+	border: none;
+	border-radius: 10px;
+	font-family: "Roboto";
+}
+textarea {
+	width: 400px;
+	height: 150px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+	textarea {
+		width: 200px;
+		height: 80px;
+	}
+}

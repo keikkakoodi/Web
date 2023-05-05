@@ -1,0 +1,77 @@
+/*
+Global Styles. Only globally used components should be styled here
+*/
+:root {
+	--highlight-red: #f50c0c;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:regular); /*Roboto Mono*/
+@import url(https://fonts.googleapis.com/css?family=Roboto+Serif:regular); /* Roboto Serif` */
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:regular); /*Roboto Slab*/
+
+body {
+	background-color: #272727;
+	color: white;
+	text-align: center;
+	min-height: 100%;
+	display: grid;
+	grid-template-rows: 1fr auto;
+}
+
+.App {
+	flex: 1 0 auto;
+	align-items: center;
+}
+
+.fallback {
+	text-align: center;
+	justify-self: center;
+}
+
+/* All Footer Components */
+
+footer {
+	grid-row-start: 2;
+	grid-column-end: 3;
+	width: 100%;
+	font-family: "Roboto Mono";
+}
+
+#abtLink {
+	color: whitesmoke;
+	font-family: "Roboto Slab";
+	text-decoration: underline;
+	text-decoration-color: var(--highlight-red);
+}
+
+#sourceLink {
+	text-decoration: underline;
+}
+
+#footerCopy {
+	color: white;
+	text-decoration: none;
+	text-decoration-color: white;
+}
+
+#footerCopy:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+/* Header */
+
+#header {
+	color: whitesmoke;
+	font-family: "Roboto Serif";
+	font-size: 40px;
+}
+
+#headerAnchor {
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+#headerAnchor:hover {
+	text-decoration: underline;
+}

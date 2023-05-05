@@ -1,0 +1,58 @@
+/*
+Styling for everything on the homepage
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:regular); /*Roboto Slab*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular);
+
+:root {
+	--highlight-red: #f50c0c;
+}
+
+#searchTitle {
+	font-family: "Roboto Mono", "Times New Roman", Times, serif;
+	font-size: 32px;
+}
+
+.SearchUI {
+	color: whitesmoke;
+	font-family: "Helvetica";
+	font-weight: 400;
+	font-size: 22px;
+}
+
+p {
+	color: whitesmoke;
+	font-family: "Roboto Slab", "Times New Roman", Times, serif;
+}
+
+#submitBtn {
+	width: 100px;
+	height: 20px;
+	background-color: white;
+	border: none;
+	border-radius: 10px;
+	font-family: "Roboto";
+}
+
+#notWorking {
+	text-decoration: underline;
+}
+
+#queriedKeikka {
+	color: var(--highlight-red);
+}
+
+.inline {
+	display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+	#searchTitle {
+		font-size: 24px;
+	}
+
+	.SearchUI {
+		font-size: 15px;
+	}
+}

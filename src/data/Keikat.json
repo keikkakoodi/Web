@@ -1,0 +1,787 @@
+[
+	{
+		"id": 100,
+		"desc": "Sivun testikoodi (ei oikea tehtävä). Jos näet tämän sivu toimii niinkuin sen pitää.",
+		"hasUrgencyClasses": false
+	},
+	{
+		"id": 103,
+		"desc": "Automaattinen palohälytys",
+		"hasUrgencyClasses": false
+	},
+	{ "id": 104, "desc": "Ilmoitinlaitehälytys: säteilyhälytys" },
+	{ "id": 105, "desc": "Ilmoitinlaitehälytys: hissihälytys" },
+	{ "id": 106, "desc": "Ilmoitinlaitehälytys: laitevika" },
+	{ "id": 107, "desc": "Ilmoitinlaitehälytys: yhteysvika" },
+	{ "id": 107, "desc": "Ilmoitinlaitehälytys: huolto" },
+	{
+		"id": 200,
+		"desc": "Tieliikenneonnettomuus: muu tai onnettomuuden uhka",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B", "C"]
+	},
+	{
+		"id": 201,
+		"desc": "Tieliikenneonnettomuus; peltikolari, suistuminen",
+		"hasUrgencyClasses": false
+	},
+	{
+		"id": 202,
+		"desc": "Tieliikenneonnettomuus, pieni",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B", "C"]
+	},
+	{
+		"id": 203,
+		"desc": "Tieliikenneonnettomuus, keskisuuri",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B"]
+	},
+	{
+		"id": 204,
+		"desc": "201 Tieliikenneonnettomuus, suuri",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A"]
+	},
+	{
+		"id": 205,
+		"desc": "Tieliikenneonnettomuus; eläin osallisena (ei henkilövahinkoja)",
+		"hasUrgencyClasses": false
+	},
+	{
+		"id": 206,
+		"desc": "Tieliikenneonnettomuus maan alla, pieni",
+		"hasUrgencyClasses": false
+	},
+	{
+		"id": 207,
+		"desc": "Tieliikenneonnettomuus maan alla, keskisuuri",
+		"hasUrgencyClasses": false
+	},
+	{
+		"id": 208,
+		"desc": "Tieliikenneonnettomuus maan alla, suuri",
+		"hasUrgencyClasses": false
+	},
+	{
+		"id": 210,
+		"desc": "Raideliikenneonnettomuus; muu",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B"]
+	},
+	{ "id": 211, "desc": "Raideliikenneonnettomuus; peltikolari" },
+	{
+		"id": 212,
+		"desc": "Raideliikenneonnettomuus, pieni",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B"]
+	},
+	{
+		"id": 213,
+		"desc": "Raideliikenneonnettomuus, keskisuuri",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B"]
+	},
+	{
+		"id": 214,
+		"desc": "Raideliikenneonnettomuus, suuri",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A"]
+	},
+	{
+		"id": 215,
+		"desc": "Raideliikenneonnettomuus; eläin osallisena",
+		"hasUrgencyClasses": false
+	},
+	{
+		"id": 216,
+		"desc": "Raideliikenneonnettomuus maan alla, pieni",
+		"hasUrgencyClasses": false
+	},
+	{
+		"id": 217,
+		"desc": "Raideliikenneonnettomuus maan alla, keskisuuri",
+		"hasUrgencyClasses": false
+	},
+	{
+		"id": 218,
+		"desc": "Raideliikenneonnettomuus maan alla, suuri",
+		"hasUrgencyClasses": false
+	},
+	{
+		"id": 220,
+		"desc": "Vesiliikenneonnettomuus; muu",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B"]
+	},
+	{
+		"id": 221,
+		"desc": "Vesiliikenneonnettomuus, pieni",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B"]
+	},
+	{
+		"id": 222,
+		"desc": "Vesiliikenneonnettomuus, keskisuuri",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B"]
+	},
+	{
+		"id": 223,
+		"desc": "Vesiliikenneonnettomuus, suuri",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A"]
+	},
+	{
+		"id": 231,
+		"desc": "Ilmaliikenneonnettomuus, pieni 1-4 henkeä",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A"]
+	},
+	{
+		"id": 232,
+		"desc": "Ilmaliikenneonnettomuus, keskisuuri 5-10 henkeä",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A"]
+	},
+	{
+		"id": 232,
+		"desc": "Ilmaliikenneonnettomuus, suuri yli 10 henkeä",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A"]
+	},
+	{
+		"id": 234,
+		"desc": "Ilmaliikenneonnettomuusvaara, pieni 1-4 henkeä",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["B"]
+	},
+	{
+		"id": 235,
+		"desc": "Ilmaliikenneonnettomuusvaara, keskisuuri 5-10 henkeä",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["B"]
+	},
+	{
+		"id": 236,
+		"desc": "Ilmaliikenneonnettomuusvaara, suuri yli 10 henkeä",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["B"]
+	},
+	{
+		"id": 271,
+		"desc": "Maastoliikenneonnettomuus",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B", "C"]
+	},
+	{
+		"id": 401,
+		"desc": "Rakennuspalo, pieni",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B", "C"]
+	},
+	{
+		"id": 402,
+		"desc": "Rakennuspalo, keskisuuri",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B"]
+	},
+	{
+		"id": 403,
+		"desc": "Rakennuspalo, suuri",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B"]
+	},
+	{
+		"id": 404,
+		"desc": "Rakennuspalo maan alla, pieni",
+		"hasUrgencyClasses": false
+	},
+	{
+		"id": 405,
+		"desc": "Rakennuspalo maan alla, keskisuuri",
+		"hasUrgencyClasses": false
+	},
+	{
+		"id": 406,
+		"desc": "Rakennuspalo maan alla, suuri",
+		"hasUrgencyClasses": false
+	},
+	{
+		"id": 411,
+		"desc": "Liikennevälinepalo, pieni",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B"]
+	},
+	{
+		"id": 412,
+		"desc": "Liikennevälinepalo, keskisuuri",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B"]
+	},
+	{
+		"id": 413,
+		"desc": "Liikennevälinepalo, suuri",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B"]
+	},
+	{
+		"id": 414,
+		"desc": "Liikennevälinepalo maan alla, pieni",
+		"hasUrgencyClasses": false
+	},
+	{
+		"id": 415,
+		"desc": "Liikennevälinepalo maan alla, keskisuuri",
+		"hasUrgencyClasses": false
+	},
+	{
+		"id": 416,
+		"desc": "Liikennevälinepalo maan alla, suuri",
+		"hasUrgencyClasses": false
+	},
+	{
+		"id": 420,
+		"desc": "Savuhavainto/tarkastustehtävä",
+		"hasUrgencyClasses": false
+	},
+	{
+		"id": 421,
+		"desc": "Maastopalo, pieni",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B", "C"]
+	},
+	{
+		"id": 422,
+		"desc": "Maastopalo, keskisuuri",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B"]
+	},
+	{
+		"id": 423,
+		"desc": "Maastopalo, suuri",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B"]
+	},
+	{
+		"id": 424,
+		"desc": "Turvetuotantoaluepalo, pieni",
+		"hasUrgencyClasses": false
+	},
+	{
+		"id": 425,
+		"desc": "Turvetuotantoaluepalo, keskisuuri",
+		"hasUrgencyClasses": false
+	},
+	{
+		"id": 426,
+		"desc": "Turvetuotantoaluepalo, suuri",
+		"hasUrgencyClasses": false
+	},
+	{
+		"id": 431,
+		"desc": "Tulipalo muu, pieni",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B"]
+	},
+	{
+		"id": 432,
+		"desc": "Tulipalo muu, keskisuuri",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B"]
+	},
+	{
+		"id": 433,
+		"desc": "Tulipalo muu, suuri",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B"]
+	},
+	{
+		"id": 434,
+		"desc": "Tulipalo muu maan alla, pieni",
+		"hasUrgencyClasses": false
+	},
+	{
+		"id": 435,
+		"desc": "Tulipalo muu maan alla, keskisuuri",
+		"hasUrgencyClasses": false
+	},
+	{
+		"id": 436,
+		"desc": "Tulipalo muu maan alla, suuri",
+		"hasUrgencyClasses": false
+	},
+	{
+		"id": 441,
+		"desc": "Räjähdys/sortuma, pieni",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B"]
+	},
+	{
+		"id": 442,
+		"desc": "Räjähdys/sortuma, keskisuuri",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B"]
+	},
+	{
+		"id": 443,
+		"desc": "Räjähdys/sortuma, suuri",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B"]
+	},
+	{
+		"id": 444,
+		"desc": "Räjähdys-/sortumavaara",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["B"]
+	},
+	{
+		"id": 451,
+		"desc": "Vaarallisen aineen onnettomuus, pieni",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B"]
+	},
+	{
+		"id": 452,
+		"desc": "Vaarallisen aineen onnettomuus, keskisuuri",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B"]
+	},
+	{
+		"id": 453,
+		"desc": "Vaarallisen aineen onnettomuus, suuri",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A"]
+	},
+	{
+		"id": 455,
+		"desc": "Vaarallisen aineen onnettomuus; vaara",
+		"hasUrgencyClasses": false
+	},
+	{
+		"id": 456,
+		"desc": "Ydinvoimalaitos; Varautumistilanne",
+		"hasUrgencyClasses": false
+	},
+	{
+		"id": 457,
+		"desc": "Ydinvoimalaitos; Laitoshätätilanne",
+		"hasUrgencyClasses": false
+	},
+	{
+		"id": 458,
+		"desc": "Ydinvoimalaitos; Yleishätätilanne",
+		"hasUrgencyClasses": false
+	},
+	{
+		"id": 461,
+		"desc": "Vahingontorjunta, pieni",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["B", "C", "D"]
+	},
+	{
+		"id": 462,
+		"desc": "Vahingontorjunta, keskisuuri",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["B", "C", "D"]
+	},
+	{
+		"id": 463,
+		"desc": "Vahingontorjunta, suuri",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["B", "C"]
+	},
+	{
+		"id": 471,
+		"desc": "Öljyvahinko / ympäristöonnettomuus; maalla, pieni",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["B", "C", "D"]
+	},
+	{
+		"id": 472,
+		"desc": "Öljyvahinko / ympäristöonnettomuus; maalla, keskisuuri",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["B", "C", "D"]
+	},
+	{
+		"id": 473,
+		"desc": "Öljyvahinko / ympäristöonnettomuus; maalla, suuri",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["B", "C"]
+	},
+	{
+		"id": 474,
+		"desc": "Öljyvahinko / ympäristöonnettomuus; vesistössä, pieni",
+		"hasUrgencyClasses": false
+	},
+	{
+		"id": 475,
+		"desc": "Öljyvahinko / ympäristöonnettomuus; vesistössä, keskisuuri",
+		"hasUrgencyClasses": false
+	},
+	{
+		"id": 476,
+		"desc": "Öljyvahinko / ympäristöonnettomuus; vesistössä, suuri",
+		"hasUrgencyClasses": false
+	},
+	{
+		"id": 477,
+		"desc": "Öljyvahinko / ympäristöonnettomuus; vaara",
+		"hasUrgencyClasses": false
+	},
+	{
+		"id": 480,
+		"desc": "Ihmisen pelastaminen; muu",
+		"hasUrgencyClasses": false
+	},
+	{
+		"id": 481,
+		"desc": "Ihmisen pelastaminen; Etsintä",
+		"hasUrgencyClasses": false
+	},
+	{
+		"id": 482,
+		"desc": "Ihmisen pelastaminen; Avunanto",
+		"hasUrgencyClasses": false
+	},
+	{
+		"id": 483,
+		"desc": "Ihmisen pelastaminen; Vedestä",
+		"hasUrgencyClasses": false
+	},
+	{
+		"id": 484,
+		"desc": "Ihmisen pelastaminen; Pintapelastus",
+		"hasUrgencyClasses": false
+	},
+	{
+		"id": 485,
+		"desc": "Ihmisen pelastaminen; Maastosta",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B"]
+	},
+	{
+		"id": 486,
+		"desc": "Ihmisen pelastaminen; Puristuksista",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B"]
+	},
+	{
+		"id": 487,
+		"desc": "Ihmisen pelastaminen; Ylhäältä/Alhaalta",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B"]
+	},
+	{
+		"id": 490,
+		"desc": "Onnettomuustilanne maanpäällä (epäselvä tilanne, koodi tarkentuu)",
+		"hasUrgencyClasses": false
+	},
+	{ "id": 550, "desc": "Avunanto; muu", "hasUrgencyClasses": false },
+	{
+		"id": 551,
+		"desc": "Avunanto; Virka-apu toiselle viranomaiselle",
+		"hasUrgencyClasses": false
+	},
+	{
+		"id": 552,
+		"desc": "Avunanto; tarkitus tms. tehtävä",
+		"hasUrgencyClasses": false
+	},
+	{
+		"id": 553,
+		"desc": "Avunanto; uhka- / varuillaolotehtävä",
+		"hasUrgencyClasses": false
+	},
+	{
+		"id": 554,
+		"desc": "Avunanto; Tarkistus- / varmistustehtävä",
+		"hasUrgencyClasses": false
+	},
+	{ "id": 580, "desc": "Eläintehtävä, muu", "hasUrgencyClasses": false },
+	{
+		"id": 581,
+		"desc": "Eläintehtävä, eläimen pelastaminen",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B", "C"]
+	},
+	{
+		"id": 901,
+		"desc": "Pelastustoimi poikkeusoloissa",
+		"hasUrgencyClasses": false
+	},
+	{ "id": "H351", "desc": "Asemavalmius", "hasUrgencyClasses": false },
+	{ "id": "H352", "desc": "Valmiussiirto", "hasUrgencyClasses": false },
+	{ "id": 351, "desc": "Tarkoititko H351?", "hasUrgencyClasses": false },
+	{ "id": 352, "desc": "Tarkoititko H352?", "hasUrgencyClasses": false },
+	{
+		"id": 700,
+		"desc": "Eloton",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B", "C"]
+	},
+	{
+		"id": 701,
+		"desc": "Elvytys",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A"]
+	},
+	{
+		"id": 702,
+		"desc": "Tajuttomuus",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B"]
+	},
+	{
+		"id": 703,
+		"desc": "Hengitysvaikeus",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B", "C", "D"]
+	},
+	{
+		"id": 704,
+		"desc": "Rintakipu",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B", "C", "D"]
+	},
+	{
+		"id": 705,
+		"desc": "Rytmihäiriö",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B", "C"]
+	},
+	{
+		"id": 706,
+		"desc": "Aivoverenkierron häiriö",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B", "C"]
+	},
+	{
+		"id": 707,
+		"desc": "Ensihoitopalveluun kuuluva hoitolaitossiirto",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B", "C", "D"]
+	},
+	{
+		"id": 711,
+		"desc": "Ilmatie-este",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B"]
+	},
+	{
+		"id": 713,
+		"desc": "Hirttäyttminen, kuristuminen",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B"]
+	},
+	{
+		"id": 714,
+		"desc": "Hukkuminen",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B", "C"]
+	},
+	{
+		"id": 741,
+		"desc": "Putoaminen",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B", "C"]
+	},
+	{
+		"id": 744,
+		"desc": "Haava",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B", "C", "D"]
+	},
+	{
+		"id": 745,
+		"desc": "Kaatuminen",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B", "C", "D"]
+	},
+	{
+		"id": 746,
+		"desc": "Isku",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B", "C", "D"]
+	},
+	{
+		"id": 747,
+		"desc": "Puristuminen / muu vamma",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B", "C", "D"]
+	},
+	{
+		"id": 751,
+		"desc": "Kaasumyrkytys",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B", "C"]
+	},
+	{
+		"id": 752,
+		"desc": "Myrkytys",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B", "C"]
+	},
+	{
+		"id": 753,
+		"desc": "Sähköisku",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B", "C"]
+	},
+	{
+		"id": 754,
+		"desc": "Palovamma",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B", "C"]
+	},
+	{
+		"id": 755,
+		"desc": "Palovamma, lämpöhalvaus",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B", "C"]
+	},
+	{
+		"id": 756,
+		"desc": "Alilämpöisyys",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B", "C"]
+	},
+	{
+		"id": 757,
+		"desc": "Onnettomuus, muu",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B", "C"]
+	},
+	{
+		"id": 761,
+		"desc": "Verenvuoto; suusta",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B", "C"]
+	},
+	{
+		"id": 762,
+		"desc": "Verenvuoto; Gynekologinen / urologinen",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B", "C", "D"]
+	},
+	{
+		"id": 763,
+		"desc": "Verenvuoto; korva / nenä",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B", "C", "D"]
+	},
+	{
+		"id": 764,
+		"desc": "Säärihaava / muu",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B", "C", "D"]
+	},
+	{
+		"id": 770,
+		"desc": "Epäselvä sairaskohtaus",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["B"]
+	},
+	{
+		"id": 771,
+		"desc": " Sokeritasapainon häiriö",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B", "C", "D"]
+	},
+	{
+		"id": 772,
+		"desc": "Kouristelu",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B", "C", "D"]
+	},
+	{
+		"id": 773,
+		"desc": "Yliherkkyysreaktio",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B", "C", "D"]
+	},
+	{
+		"id": 774,
+		"desc": "Heikentynyt yleistila, muu sairaus",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B", "C", "D"]
+	},
+	{
+		"id": 775,
+		"desc": "Oksentelu, ripuli",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["B", "C", "D"]
+	},
+	{
+		"id": 781,
+		"desc": "Vatsakipu",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B", "C", "D"]
+	},
+	{
+		"id": 782,
+		"desc": "Pää- / niskasärky",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B", "C", "D"]
+	},
+	{
+		"id": 783,
+		"desc": "Selkä- / lonkkakipu",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B", "C", "D"]
+	},
+	{
+		"id": 784,
+		"desc": "Raajakipu",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["B", "C", "D"]
+	},
+	{
+		"id": 785,
+		"desc": "Mielenterveysongelma",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["C", "D"]
+	},
+	{
+		"id": 786,
+		"desc": "Vartalokipu",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["B", "C", "D"]
+	},
+	{
+		"id": 790,
+		"desc": "Hälytys puhelun aikana (Ensihoitoyksikkö hälytetään kiireellisesti kohteeseen ja tehtäväkoodi tarkentuu kesken olevan hätäpuhelun aikana)",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["B"]
+	},
+	{
+		"id": 791,
+		"desc": "Synnytys",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A", "B", "C"]
+	},
+	{
+		"id": 792,
+		"desc": "Varallaolo, valmiussiirto",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["B", "C"]
+	},
+	{
+		"id": 793,
+		"desc": "Hoitolasiirto",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["D"]
+	},
+	{
+		"id": 794,
+		"desc": "Muu sairaankuljetustehtävä / aikatilaustehtävä",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["D"]
+	},
+	{
+		"id": 795,
+		"desc": "Monipotilastilanne / suuronnettomuus",
+		"hasUrgencyClasses": true,
+		"urgencyClasses": ["A"]
+	}
+]

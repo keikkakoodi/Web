@@ -1,0 +1,12 @@
+{
+	"forms": {
+		"keikkakoodi-contact": {
+			"name": "Contact form",
+			"fields": {
+				"email": { "type": "email", "required": true },
+				"message": { "type": "text", "required": true }
+			},
+			"actions": [{ "type": "email", "to": "leevi.saastamoinen@gmail.com" }]
+		}
+	}
+}
