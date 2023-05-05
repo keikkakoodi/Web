@@ -1,12 +1,13 @@
 export default function LastSearch(): JSX.Element {
-	const storedLastSearch: any = localStorage.getItem("lastSearch");
-	console.log(storedLastSearch);
-
-	const lastSearch = parseInt(storedLastSearch);
+	const lastSearch: any = localStorage
+		.getItem("lastSearch")
+		?.split('"')
+		.join("");
+	console.log(lastSearch);
 
 	const lastSearchLink: string = `/?query=${lastSearch}`;
 
-	if (isNaN(lastSearch)) {
+	if (lastSearch == "null") {
 		return <></>;
 	} else
 		return (
@@ -17,7 +18,7 @@ export default function LastSearch(): JSX.Element {
 					<a
 						href={lastSearchLink}
 						className="whiteLink"
-						style={{ textDecoration: "none" }}>
+						style={{ textDecoration: "underline" }}>
 						{lastSearch}
 					</a>
 				</p>
