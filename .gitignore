@@ -10,9 +10,12 @@ build/
 
 # Yarn files
 .yarn/*
-!.yarn/cache
+!.yarn/cach
+
 !.yarn/patches
 !.yarn/plugins
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+.env
