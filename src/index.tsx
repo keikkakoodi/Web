@@ -15,8 +15,8 @@ import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 
 //Pages
-const HomePage = lazy(() => import("./Home/Home"));
-const InfoPage = lazy(() => import("./Info/Info"));
+const HomePage = lazy(() => import("./Home/HomePage"));
+const InfoPage = lazy(() => import("./Info/InfoPage"));
 const NotFoundPage = lazy(() => import("./404"));
 
 const root = ReactDOM.createRoot(document.getElementById("root")!);
