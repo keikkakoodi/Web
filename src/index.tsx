@@ -13,6 +13,7 @@ import "./global.css";
 //Components
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
+import Loading from "./Components/Loading";
 
 //Pages
 const HomePage = lazy(() => import("./Home/HomePage"));
@@ -29,12 +30,7 @@ root.render(
 					<Route
 						index
 						element={
-							<Suspense
-								fallback={
-									<h1 style={{ fontFamily: "Roboto", fontSize: "12px" }}>
-										Loading ...
-									</h1>
-								}>
+							<Suspense fallback={<Loading />}>
 								<HomePage />
 							</Suspense>
 						}
@@ -42,12 +38,7 @@ root.render(
 					<Route
 						path="about"
 						element={
-							<Suspense
-								fallback={
-									<h1 style={{ fontFamily: "Roboto", fontSize: "12px" }}>
-										Loading ...
-									</h1>
-								}>
+							<Suspense fallback={<Loading />}>
 								<InfoPage />
 							</Suspense>
 						}
@@ -61,12 +52,7 @@ root.render(
 					<Route
 						path="*"
 						element={
-							<Suspense
-								fallback={
-									<h1 style={{ fontFamily: "Roboto", fontSize: "12px" }}>
-										Loading ...
-									</h1>
-								}>
+							<Suspense fallback={<Loading />}>
 								<NotFoundPage />
 							</Suspense>
 						}
