@@ -35,6 +35,10 @@ p {
 	font-family: "Roboto";
 }
 
+.whiteLink:visited {
+	color: white;
+}
+
 #notWorking {
 	text-decoration: underline;
 }

@@ -1,5 +1,3 @@
-// The commented out code is for an incoming implementation of a "last search" component
-
 import { Component, Suspense, lazy, useEffect } from "react";
 
 //import LastSearch from "./LastSearch"; Implementation incoming
@@ -8,6 +6,7 @@ import Search from "./Search";
 
 import "./HomePage.css";
 import Loading from "../Components/Loading";
+import LastSearch from "./LastSearch";
 export default function HomePage(): JSX.Element {
 	useEffect(() => {
 		const param: string | null = new URLSearchParams(
@@ -23,18 +22,18 @@ export default function HomePage(): JSX.Element {
 
 	const urlQuery = new URLSearchParams(window.location.search).get("query");
 
-	/*	if (urlQuery !== null) { */
-	return (
-		<div className="App">
-			<Search />
-			<Suspense fallback={<Loading />}>
-				<QueriedKeikka />
-			</Suspense>
+	if (urlQuery !== null) {
+		return (
+			<div className="App">
+				<Search />
+				<Suspense fallback={<Loading />}>
+					<QueriedKeikka />
+				</Suspense>
 
-			{/* <LastSearch /> */}
-		</div>
-	); //return
-	/*} else
+				<LastSearch />
+			</div>
+		); //return
+	} else
 		return (
 			<div className="Container">
 				<div className="App">
@@ -43,5 +42,4 @@ export default function HomePage(): JSX.Element {
 				</div>
 			</div>
 		); //else return
-		*/
 }
